@@ -1,4 +1,4 @@
-package com.evolvus.java.object.practies;
+package com.evolvus.java.object.practies.tostring;
 
 class Manager2{
 	int i=10;

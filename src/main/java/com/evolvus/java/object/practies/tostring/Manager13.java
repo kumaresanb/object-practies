@@ -1,4 +1,4 @@
-package com.evolvus.java.object.practies;
+package com.evolvus.java.object.practies.tostring;
 
 class A1 {
 	 private int i = 20;

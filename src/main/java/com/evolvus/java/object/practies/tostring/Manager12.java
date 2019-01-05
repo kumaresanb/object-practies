@@ -1,4 +1,4 @@
-package com.evolvus.java.object.practies;
+package com.evolvus.java.object.practies.tostring;
 
 class G{
 	private int k;

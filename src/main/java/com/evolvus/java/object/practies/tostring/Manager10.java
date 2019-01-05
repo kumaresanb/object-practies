@@ -1,4 +1,4 @@
-package com.evolvus.java.object.practies;
+package com.evolvus.java.object.practies.tostring;
 
 public class Manager10 {
 	public static void main(String[] args) {
