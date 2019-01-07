@@ -36,6 +36,15 @@ class Fan {
 
 public class Manager9 {
 	public static void main(String[] args) {
-
+		Book b1=new Book(123.34);
+		Book b2=new Book(123.34);
+		Fan  f1= new Fan(200.21);
+		Fan  f2= new Fan(200.21);
+		System.out.println(b1.equals(b2));
+		System.out.println(f1.equals(f2));
+		System.out.println(b1.equals(f1));
+		System.out.println(b2.equals(f2));
+		System.out.println(b2.equals(b1));
+		System.out.println(f2.equals(f1));
 	}
 }
