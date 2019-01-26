@@ -15,9 +15,10 @@ class E implements Cloneable {
 
 public class Manager5 {
 
-	public static void main(String[] args) {
-		E e1 =new E(34);
-		E e2=e1;
+	public static void main(String[] args) throws CloneNotSupportedException {
+		E e1 =new E(34);// Original Copy
+		//E e2=(E)e1; //copy of object 
+		E e2=(E)e1.clone(); //Cloning a object deep copy disjoint  
 		System.out.println(e2.k);
 		e2.k=200;
 		System.out.println(e1.k);
